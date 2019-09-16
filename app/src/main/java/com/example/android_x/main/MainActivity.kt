@@ -2,6 +2,7 @@ package com.example.android_x.main
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import com.example.android_x.R
 
 class MainActivity : AppCompatActivity() {
@@ -11,6 +12,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
+
+
+        Log.i("===","app main :...")
 
     }
 }
